@@ -1,0 +1,60 @@
+.editCard {
+    border: 1px solid #e0e0e0;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 280px; /* Set a fixed height */
+    width: 100%; /* Ensure it takes the full width */
+    box-sizing: border-box;
+    overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.editCard h3 {
+    margin: 0 0 8px 0;
+    font-size: 18px;
+    color: #333;
+    white-space: nowrap; /* Prevent text overflow */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.editCard p {
+    margin: 4px 0;
+    color: #666;
+    white-space: nowrap; /* Prevent text overflow */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.editCard button {
+    align-self: flex-start;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0070f3;
+    color: white;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.editCard button:hover {
+    background-color: #005bb5;
+}
+
+.vandalism {
+    color: red;
+    font-weight: bold;
+}
+
+.diff {
+    background-color: #f8f8f8;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 8px;
+    overflow: auto;
+    max-height: 200px;
+}
